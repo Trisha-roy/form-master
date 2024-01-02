@@ -1,8 +1,8 @@
 
 import './App.css'
 import StateForm2 from './components/StateForm2/StateForm2'
-// import StateFullForm from './components/StateFullForm/StateFullForm'
-// import SimpleForm from './components/SimpleForm/SimpleForm'
+import StateFullForm from './components/StateFullForm/StateFullForm'
+import SimpleForm from './components/SimpleForm/SimpleForm'
 
 function App() {
  
@@ -10,8 +10,8 @@ function App() {
   return (
     <>
     <StateForm2></StateForm2>
-    {/* <StateFullForm></StateFullForm> */}
-      {/* <SimpleForm></SimpleForm> */}
+    <StateFullForm></StateFullForm> 
+       <SimpleForm></SimpleForm>
     </>
   )
 }
